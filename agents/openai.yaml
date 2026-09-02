@@ -1,0 +1,6 @@
+interface:
+  display_name: "FreeCAD MCP Parametric CAD"
+  short_description: "Trustworthy parametric mechanical CAD workflow"
+  default_prompt: "Use $freecad-mcp-parametric-cad to design and validate an auditable parametric mechanical CAD interface through FreeCAD MCP."
+policy:
+  allow_implicit_invocation: true
