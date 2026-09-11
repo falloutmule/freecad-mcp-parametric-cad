@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "FreeCAD Skill v2.0.0",
+    "subtitle": "Native helpers with scoped evidence — not an independent verifier",
+    "quality_profile": "showcase",
+    "repository": {"url": "https://github.com/falloutmule/freecad-mcp-parametric-cad", "revision": "ca50413106656cfd9a82eb6906c6fba946da7fa9"},
+    "views": [
+      {"id":"cad-path","label":"CAD and evidence","focus":["instructions","session","frames","geometry","exports"],"note":"Protect documents, resolve occurrences, measure declared claims, and verify delivered outputs."},
+      {"id":"native-modeling","label":"Editable modeling","focus":["instructions","recipes","tests"],"note":"Three native examples and regression tests; example dimensions are not product requirements."}
+    ]
+  },
+  "components": [
+    {"id":"instructions","type":"frontend","label":"Skill instructions","sublabel":"Scope and claim routing","pos":[40,200],"size":[180,72],"sources":[{"path":"SKILL.md"}]},
+    {"id":"session","type":"security","label":"Session safety","sublabel":"Ownership / journal","pos":[280,200],"size":[180,72],"sources":[{"path":"scripts/fcskill/session.py"}]},
+    {"id":"frames","type":"backend","label":"Occurrence frames","sublabel":"Native Part.getShape","pos":[520,200],"size":[200,72],"sources":[{"path":"scripts/fcskill/frames.py"}]},
+    {"id":"geometry","type":"backend","label":"Geometry evidence","sublabel":"Intersection / bounds / datums","pos":[780,200],"size":[210,72],"sources":[{"path":"scripts/fcskill/geometry.py"}]},
+    {"id":"exports","type":"database","label":"Verified outputs","sublabel":"STEP and print-frame STL","pos":[1050,200],"size":[210,72],"sources":[{"path":"scripts/fcskill/exports.py"}]},
+    {"id":"recipes","type":"backend","label":"Native recipes","sublabel":"Plate / bracket / enclosure","pos":[40,430],"size":[210,72],"sources":[{"path":"scripts/fcskill/recipes.py"}]},
+    {"id":"contracts","type":"database","label":"Result contracts","sublabel":"Scope / tolerance / uncertainty","pos":[780,430],"size":[220,72],"sources":[{"path":"scripts/fcskill/contracts.py"}]},
+    {"id":"tests","type":"security","label":"Regression suite","sublabel":"26 native tests at release","pos":[340,430],"size":[210,72],"sources":[{"path":"scripts/tests/test_native.py"}]}
+  ],
+  "connections": [
+    {"id":"route-session","from":"instructions","to":"session"},
+    {"id":"resolve","from":"session","to":"frames"},
+    {"id":"measure","from":"frames","to":"geometry"},
+    {"id":"compare-export","from":"geometry","to":"exports"},
+    {"id":"route-modeling","from":"instructions","to":"recipes","fromSide":"bottom","toSide":"top"},
+    {"id":"record","from":"geometry","to":"contracts","fromSide":"bottom","toSide":"top"},
+    {"id":"exercise","from":"tests","to":"recipes","fromSide":"left","toSide":"right"}
+  ],
+  "cards": [
+    {"dot":"cyan","title":"Read this as a workflow","items":["Arrows describe operation flow, not a complete Python import graph.","FreeCAD and the existing local MCP connection are external prerequisites."]},
+    {"dot":"emerald","title":"Evidence stays scoped","items":["PASS requires a declared requirement; uncertainty stays explicit.","File identity, geometric equivalence and physical fit are different claims."]},
+    {"dot":"rose","title":"Deliberate limits","items":["No automatic printing or whole-assembly PASS from a local edit.","Mirrors/scales and link arrays remain explicitly unsupported."]}
+  ]
+}
