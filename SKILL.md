@@ -23,6 +23,8 @@ Deliver the requested mechanical outcome with reusable native operations and evi
 |---|---|
 | Connect, inspect documents, import, save, recover | [Session and recovery](references/session-and-recovery.md) |
 | Construct/edit, test parameters, reopen/export | [Modeling and export](references/modeling-and-export.md) |
+| Reusable native creation helpers (experimental) | [Modeling helpers](references/modeling-helpers.md) |
+| Bounded parameter sampling and restoration | [Parameter testing](references/parameter-testing.md) |
 | Register, measure fit/contact, account for assemblies | [Geometry and assemblies](references/geometry-and-assemblies.md) |
 | Source/physical authority, fabrication release | [Mechanical evidence](references/trustworthy-mechanical-cad.md) |
 | Multi-revision program or frozen topology | [Interface programs](references/interface-program-workflow.md) |
@@ -31,6 +33,8 @@ Deliver the requested mechanical outcome with reusable native operations and evi
 ## Helpers
 
 Add this skill's **resolved absolute** `scripts` directory to `sys.path`; import `fcskill` and record `fcskill.identity()` for version-sensitive work. Do not rely on a same-name module already loaded from another checkout.
+
+Use `fcskill.capabilities()` for helper availability; capability flags are not native-test evidence. Prefer the new creation helpers only within their documented scope and verify them on the installed FreeCAD build before adoption.
 
 Use `frames.shape_in_frame`, `session.OwnedDocument`/`Operation`, geometry evidence functions, and the explicitly scoped exporters. References specify contracts and limitations. These are native operational checks—not the independent verifier. Use project verifiers only for capabilities their pinned release demonstrably supports.
 
