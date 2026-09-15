@@ -1,0 +1,2 @@
+# Preserve imported companion and its checksum manifest identically on Windows.
+skills/blockfolk-figure-design/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

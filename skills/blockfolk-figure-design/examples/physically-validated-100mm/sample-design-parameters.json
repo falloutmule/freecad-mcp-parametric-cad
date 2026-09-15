@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "proportions": {
+    "height": 100.0,
+    "head_width_ratio": 0.34,
+    "head_height_ratio": 0.34,
+    "head_depth_ratio": 0.25,
+    "torso_width_ratio": 0.26,
+    "torso_depth_ratio": 0.14,
+    "upper_arm_ratio": 0.145,
+    "thigh_ratio": 0.16,
+    "shin_ratio": 0.175
+  },
+  "mechanism": {
+    "journal_radius": 2.55,
+    "cap_radius": 4.6,
+    "cap_thickness": 1.3,
+    "cap_inner_half_span": 3.2,
+    "shell_radius": 5.8,
+    "chamber_radius": 3.7,
+    "chamber_width": 3.9,
+    "cam_radius": 2.35,
+    "cam_width": 3.2,
+    "leaf_inner_radius": 2.5,
+    "leaf_thickness": 0.8,
+    "tooth_radius": 2.0,
+    "leaf_width": 2.2
+  },
+  "process": {
+    "clearance": 0.45,
+    "release_gap": 0.35,
+    "nozzle": 0.4,
+    "layer": 0.2
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blockfolk Figure Design"
+  short_description: "Design character-first articulated PIP figures"
+  default_prompt: "Use $blockfolk-figure-design with FreeCAD to design a new poseable character."

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "record_id": "product-pass-aquila-100mm-001",
+  "recorded_date": "2026-09-14",
+  "print_date": null,
+  "source_package_sha256": "06ea695ad4d88fadd6b6aa54f56302d2c7d9c438c874ab4476f99802dd79e7cf",
+  "printer": "Voxelab Aquila",
+  "material": "PLA",
+  "brand_or_blend": null,
+  "nozzle_mm": 0.4,
+  "layer_mm": 0.2,
+  "layer_source": "Confirmed package setting; not physically measured",
+  "nominal_height_mm": 100,
+  "height_measured_mm": null,
+  "joint_families": [
+    "paired broad cam/opposed follower lateral hinge",
+    "canted version at shoulders",
+    "paired cam neck yaw swivel"
+  ],
+  "nominal_running_clearance_mm": 0.45,
+  "nominal_neutral_release_gap_mm": 0.35,
+  "released": true,
+  "retained": true,
+  "pose_holding": true,
+  "fit_assessment": null,
+  "damage_during_release": null,
+  "post_print_assembly_required": false,
+  "physical_print_count_reported": 1,
+  "physical_validation_label": "PHYSICALLY VALIDATED: this configuration and user-reported handling only",
+  "outcome_source": "User explicitly reports release, retention, pose holding and no post-print assembly; later Product Pass package confirmed",
+  "photos_observe": [
+    "connected figure on build plate",
+    "connected figure held in changed poses",
+    "face/hair/clothing/hands/boots survived",
+    "broad textured rear surfaces"
+  ],
+  "unmeasured": [
+    "release force",
+    "holding torque",
+    "strength",
+    "wear/cycles",
+    "as-printed gaps",
+    "mass",
+    "print duration",
+    "all-joint angle limits"
+  ],
+  "notes": "No quantified repeatability or all-angle holding claim. Photo color does not identify filament formulation."
+}

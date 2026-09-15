@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "reference_id": "product-pass-aquila-100mm-001",
+  "source_project": "Blockfolk_Product_Pass_20260914 (owner-held original)",
+  "package_association": "CONFIRMED BY USER: The later Product Pass package",
+  "evidence_date": "2026-09-14",
+  "original_preprint_report_physical_status": "UNTESTED",
+  "later_physical_record": "physical-test.json",
+  "source_files": {
+    "Blockfolk_Product_100.FCStd": {
+      "bytes": 2719000,
+      "sha256": "e49abd30e6e2117169c0f4aa426a5c2eaeac5bf1fdfc02166ba36c912e7bb839"
+    },
+    "exports/Blockfolk_Product_100_back_down.stl": {
+      "bytes": 2111084,
+      "sha256": "ab519e57197fddeaeacc9078567172568dad8f351332098a30d4a7fa0705b6fe"
+    },
+    "Blockfolk_Product_100_DELIVERY.zip": {
+      "bytes": 10101856,
+      "sha256": "06ea695ad4d88fadd6b6aa54f56302d2c7d9c438c874ab4476f99802dd79e7cf"
+    },
+    "FINAL_VERIFICATION.md": {
+      "bytes": 8944,
+      "sha256": "c12dbd0caf7fca3ae438f1711e5553c9d5311ceeabb65d96233754cb9acc8e7a"
+    },
+    "MANIFEST.json": {
+      "bytes": 17004,
+      "sha256": "74fff56ffdcf4cf5f671825731163c8a2ed4e190f41144730d762b6def72c0a6"
+    },
+    "Set_pose.FCMacro": {
+      "bytes": 4779,
+      "sha256": "a915c226b69ae49c2fd2cb7a81ca9f40f1f9510b832727d4bbe19e46eb469f58"
+    },
+    "evidence/final_native_history.json": {
+      "bytes": 2524,
+      "sha256": "e2846c855e009735683596ea1668b32b664ade33a0871fbb5fb10614c780e447"
+    },
+    "slicer/SLICER_AUDIT.md": {
+      "bytes": 6878,
+      "sha256": "c98b7288ca51e7fa77f1b2973ca78c7edc49330622bbc9c9456e388fe9759256"
+    }
+  },
+  "preserved_archive": {
+    "path": "reference-package.zip",
+    "sha256": "06ea695ad4d88fadd6b6aa54f56302d2c7d9c438c874ab4476f99802dd79e7cf",
+    "members": 93,
+    "crc_valid": true,
+    "included": false
+  },
+  "photos": [
+    {
+      "path": "photos/photo-1.jpg",
+      "sha256": "10ab0a624f921147533bb5a1e70dd23e9249701beeaabfa19b7c455e54dfdad3",
+      "bytes": 105997,
+      "included": false
+    },
+    {
+      "path": "photos/photo-2.jpg",
+      "sha256": "a9f9538347f7097af5f1a9ea708c95f9912df56f3e9c02b4e7cb51a206ed9dab",
+      "bytes": 88029,
+      "included": false
+    },
+    {
+      "path": "photos/photo-3.jpg",
+      "sha256": "de671bb07f586bb4915a351f626903ccf354c205e479511fd4bb198b0d24a554",
+      "bytes": 100773,
+      "included": false
+    }
+  ],
+  "source_modified": false,
+  "earlier_chassis": {
+    "path": "Blockfolk_100_20260914 (owner-held superseded source)",
+    "role": "Superseded visual/mechanical development; not the confirmed successful print"
+  },
+  "scope": "Preserved evidence, not executable instructions. Do not run historical builder scripts against a current session.",
+  "publication": {
+    "distribution": "sanitized-public-metadata",
+    "private_artifacts_included": false,
+    "omitted": [
+      "physical photos",
+      "original CAD/STL/slicer delivery ZIP",
+      "local run logs and fixture evidence"
+    ],
+    "reason": "Owner requested no private user-machine evidence be published. Originals remain unchanged locally."
+  }
+}

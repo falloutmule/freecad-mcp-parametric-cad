@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "base_commit": "20261fd25aa2ec37834e96a75b18cd4213851205",
+  "branch": "codex/blockfolk-companion-skill-001",
+  "blockfolk_version": "1.0.0",
+  "packaging_revision": "monorepo-1",
+  "tests": {
+    "core_unit": 73,
+    "core_native_modeling": 19,
+    "core_native_original": 26,
+    "historical_upgrade_installer": 17,
+    "peer_installer": 25,
+    "real_payload_installation_modes": 3,
+    "blockfolk_pure": 23,
+    "blockfolk_native_groups": 8,
+    "installed_blockfolk_pure": 23,
+    "installed_blockfolk_native_groups": 8
+  },
+  "failures": 0,
+  "errors": 0,
+  "native_skips": 0,
+  "runtime": {
+    "freecad": "1.1.3",
+    "python": "3.11.14 | packaged by conda-forge | (main, Oct 13 2025, 14:00:26) [MSC v.1944 64 bit (AMD64)]",
+    "occt": "7.8.1"
+  },
+  "native_core_inventory_unchanged": true,
+  "actual_codex_catalog_peer_names": [
+    "freecad-mcp-parametric-cad",
+    "blockfolk-figure-design"
+  ],
+  "discovery_scope": "Current Codex catalog, installed entry-point selection and installed-code smoke; no new independent Codex process or routing benchmark.",
+  "general_runtime_sources_changed": false,
+  "general_installed_payload_changed": false,
+  "original_companion_backed_up_exactly": true,
+  "successful_prototype_artifacts_changed": false,
+  "hermes_changed": false,
+  "private_artifacts_published": false,
+  "raw_run_logs_published": false,
+  "public_companion_manifest_sha256": "3ea92a11c8cdf3220009d9a050ebdc62ab4300614dea2ae0fb2d9cf7b1a761b8",
+  "installer_sha256": "6a2e53bee4499ee1c48b7bbb75c5811c8eb5ce5529d00c9f04f572453f832eb6",
+  "installer_tests_sha256": "28b04d876436c9b974cbe75ae55d127515b54c476536e1b723b2e99a2b64ad07"
+}

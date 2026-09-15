@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "packages": {
+    "core": {
+      "name": "freecad-mcp-parametric-cad",
+      "source": ".",
+      "include": ["SKILL.md", "README.md", "agents", "scripts", "references", "docs/freecad-skill.architecture.html", "docs/freecad-skill.architecture.json", "docs/native-acceptance-2.1.0-dev1.md"]
+    },
+    "blockfolk": {
+      "name": "blockfolk-figure-design",
+      "source": "skills/blockfolk-figure-design",
+      "include": ["SKILL.md", "README.md", "PUBLICATION.md", "UPSTREAM_PROVENANCE.json", "MANIFEST.json", "VALIDATION_REPORT.md", "FREECAD_SKILL_RECOMMENDATIONS.md", "agents", "scripts", "references", "examples", "tests"],
+      "requires": "freecad-mcp-parametric-cad"
+    }
+  }
+}

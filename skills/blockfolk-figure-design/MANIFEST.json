@@ -1,0 +1,114 @@
+{
+  "version": "1.0.0",
+  "packaging_revision": "monorepo-1",
+  "files": {
+    "agents/openai.yaml": {
+      "sha256": "7cd718d1de6d0b1fb7608306fd46933231ee93395c7373b1a6127e61f900cc2f",
+      "bytes": 225
+    },
+    "examples/physical-test-record.json": {
+      "sha256": "9a72f5bdd5b13e0e1578852f2557e99e1fe5ea4f2aa723c7b73f9b2392a01da2",
+      "bytes": 763
+    },
+    "examples/physically-validated-100mm/parameter-summary.json": {
+      "sha256": "fa0b683d3344c9e3acab722648c0f6d1e8b760ed3e2d1b4d02e281743a87d750",
+      "bytes": 16638
+    },
+    "examples/physically-validated-100mm/physical-test.json": {
+      "sha256": "b92dccdb3e4045bb07ba61519982074e962ad105c953a0745b4f6074d5d7567c",
+      "bytes": 1708
+    },
+    "examples/physically-validated-100mm/provenance.json": {
+      "sha256": "2d2f2d75a195a703870645c8051a077c28d1e02ace76bb00989b973493476f53",
+      "bytes": 3153
+    },
+    "examples/physically-validated-100mm/README.md": {
+      "sha256": "0eee79f1bcbcb091b721b98b015fee5a1443f3034356100e97f4a8e71e76ca46",
+      "bytes": 1791
+    },
+    "examples/physically-validated-100mm/sample-design-parameters.json": {
+      "sha256": "27ac9c3a72342d15885f68f905e6c48a1b6573db6e4c80b5dc0f4dfdb8b9d755",
+      "bytes": 801
+    },
+    "FREECAD_SKILL_RECOMMENDATIONS.md": {
+      "sha256": "b811e1f1bd1ccdc5ff60f6d7c9aca001498ceec683dddd0ac89014fc08f6a9c5",
+      "bytes": 3904
+    },
+    "PUBLICATION.md": {
+      "sha256": "a3718e37970c8921f37718e1fd04aa51e1639629609d5f80c068280a89dc2cb0",
+      "bytes": 2025
+    },
+    "README.md": {
+      "sha256": "f166bf814a44ccd9c40544a7967d1be44bd4a3affd4e8e6dfc31b1e2151a544b",
+      "bytes": 3353
+    },
+    "references/design-language.md": {
+      "sha256": "97e72ee38f610cffa9d808572a5c7e8b51a94f197b0b77fced623bda60cf5cb4",
+      "bytes": 3519
+    },
+    "references/flat-back-printing.md": {
+      "sha256": "0b8982935170ae6b494315704997253ef39be9a4b561c0945d92b5643e32e8f2",
+      "bytes": 4244
+    },
+    "references/implementation.md": {
+      "sha256": "398e2e2f88fbf95954420dcd11eaf76e6b3ed17ed36121e266dd8d56e6bfb3b7",
+      "bytes": 5625
+    },
+    "references/joint-selection.md": {
+      "sha256": "4948fd33245b6e64a3684a5de65b23f2bd81e434dc96cc620c98a8c3fe301ca0",
+      "bytes": 12614
+    },
+    "references/physical-validation.md": {
+      "sha256": "f69e5842f110b9677ef8c2991bbfbfcfd1e516b95fd4fe8c76f6277f4abad4e7",
+      "bytes": 4313
+    },
+    "references/verification.md": {
+      "sha256": "67772e821c1a9ccc27254a126d525bb22d140d1d56b161a3a66cb3fb506be1fc",
+      "bytes": 7090
+    },
+    "scripts/blockfolk/__init__.py": {
+      "sha256": "3e2f97d7474df9807dce1633060123c4def3d3c872d894d314082699208d7f1c",
+      "bytes": 102
+    },
+    "scripts/blockfolk/joints.py": {
+      "sha256": "521e6e6f7c84fea4e99fb8f56a7b226ed2cc065884cee9c2b54370e9cbd274ce",
+      "bytes": 6183
+    },
+    "scripts/blockfolk/parameters.py": {
+      "sha256": "edc14253207e144a5e4ff2c838b4bc4b29bbdaac749711b3fffee04f0b364374",
+      "bytes": 3959
+    },
+    "scripts/blockfolk/poses.py": {
+      "sha256": "de0280f1a2a7e27af1b449de7457b1be5a0c47e7e0052f8cf29b922272edf508",
+      "bytes": 3434
+    },
+    "scripts/blockfolk/validation.py": {
+      "sha256": "979ad3b2e13b273f080dcc2daabb0a1eb527392db47e0e492c4dc9c5e0775a65",
+      "bytes": 3127
+    },
+    "SKILL.md": {
+      "sha256": "f77edc1f49514b92c30a32d8c040c1ef73764bab26a8cc8e4b248e01ae7a1f1d",
+      "bytes": 4434
+    },
+    "tests/native_runner.py": {
+      "sha256": "71b1adf963d8066deae13cfaa6bded51398a5cf0a14b12664d3c77639e90828b",
+      "bytes": 7500
+    },
+    "tests/run_python_tests.py": {
+      "sha256": "709967bacb32f04f758d098f4df3657b24136134836ef9b9dd8892ce91ccf946",
+      "bytes": 1057
+    },
+    "tests/test_helpers.py": {
+      "sha256": "375ee8b09ca4c9f9b8867e5708525f4325b6f8174df2f6026d7948aef729104d",
+      "bytes": 7805
+    },
+    "UPSTREAM_PROVENANCE.json": {
+      "sha256": "2c01552eaa7340ae739f90b91383826bf3fac9a9cb53517d2762c77bd099d8b5",
+      "bytes": 15711
+    },
+    "VALIDATION_REPORT.md": {
+      "sha256": "34877ca6fff66961d5cb6b3dbb5959986b81c5b1ee85b9f8fdb18e9842c13a10",
+      "bytes": 1991
+    }
+  }
+}
