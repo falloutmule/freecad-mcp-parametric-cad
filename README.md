@@ -16,6 +16,10 @@ The [interactive architecture diagram](docs/freecad-skill.architecture.html) and
 
 Instructions route by the claim being made. `session` protects documents; `frames` resolves native occurrences; `geometry` records bounded or exact evidence; `exports` checks delivered bytes and scoped geometry; `recipes` demonstrates editable native parts. `contracts` carries explicit results. These checks are not an independent engineering verifier.
 
+## Design and handoff
+
+Start substantial designs with [design intent, constraint economy and handoff](references/design-intent-and-handoff.md). Protect real interfaces and user boundaries while leaving implementation choices open. This is general CAD guidance, not a figure-specific workflow. The [whole-skill audit](docs/design-workflow-audit.md) records consolidation decisions and remaining validation work. Documentation changes do not promote a helper version or establish new native/physical acceptance.
+
 ## Validation
 
 Release testing used FreeCAD 1.1.3, OCCT 7.8.1 and Python 3.11.14 through an isolated GUI process. All 26 native regression tests passed without skips. The full example exercised parameter edit/restore, save/reopen, STEP and print STL, while preserving an unrelated unsaved fixture document.

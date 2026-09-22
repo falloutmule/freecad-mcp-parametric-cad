@@ -9,7 +9,7 @@ Deliver the requested mechanical outcome with reusable native operations and evi
 
 ## Essential safeguards
 
-- Resolve outcome, affected objects, authorized changes, and required editability. Preserve sources, unrelated documents, dirty repository work, and the user's machine/configuration.
+- Resolve outcome, affected objects, authorized changes, required editability and implementation freedoms. Use [Design intent and handoff](references/design-intent-and-handoff.md) for substantial design/delegation; do not promote examples or past assistant choices into hard requirements. Preserve sources, unrelated documents, dirty repository work, and the user's machine/configuration.
 - Choose verification from the **claim**, not merely the action. Read-only “does it fit?” needs fit evidence; a verified local edit does not verify the assembly.
 - Before live CAD, require read-only MCP loopback health and inventory exact document paths and modification state. One writer per FreeCAD process; mutations, recompute and save stay on its GUI thread.
 - Use the tested occurrence/frame helpers instead of inventing parent-placement formulas. Derive frames from authoritative datums, not candidate faces. Keep `T_target<-source` and print transforms explicit.
@@ -21,6 +21,7 @@ Deliver the requested mechanical outcome with reusable native operations and evi
 
 | Task/claim | Read |
 |---|---|
+| Design/revise architecture, resolve constraints, delegate | [Design intent and handoff](references/design-intent-and-handoff.md) |
 | Connect, inspect documents, import, save, recover | [Session and recovery](references/session-and-recovery.md) |
 | Construct/edit, test parameters, reopen/export | [Modeling and export](references/modeling-and-export.md) |
 | Register, measure fit/contact, account for assemblies | [Geometry and assemblies](references/geometry-and-assemblies.md) |
